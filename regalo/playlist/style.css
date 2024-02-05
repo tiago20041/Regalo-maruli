@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.playlist-item {
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+}
+
+.playlist-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+.description {
+    font-size: 0.8em;
+    color: plum;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #ffcc00; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+a{
+    color: goldenrod;
+}
+
+div {
+    border: 5px solid #ead9b0;
+    border-radius: 12px;
+  }
+
+  p{
+    color: plum;
+  }
+
+  h1, h3, p{
+    text-align: center;
+    color: aqua;
+  }
+
+  .courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

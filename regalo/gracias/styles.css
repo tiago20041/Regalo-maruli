@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 1em;
+    background: url(https://media.discordapp.net/attachments/735910437870239826/1179263272365600799/image.png?ex=65cc3401&is=65b9bf01&hm=c4068b48c61118c14ca7d3d096a02d3a44cf7295fe46f45a25261fdd746731bf&=&format=webp&quality=lossless&width=260&height=459);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Agrega una transición de color suave */
+}
+
+a:hover {
+    color: #fff; /* Cambia el color al pasar el ratón sobre el enlace */
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #ffcc00; /* Amarillo */
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}

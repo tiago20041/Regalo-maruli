@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    padding: 1em;
+    background-size: cover;
+    border-radius: 5px;
+    background: url(https://th.bing.com/th/id/R.6fdeaa5708c303a054deb0a6f0461765?rik=GBHtSo1koyd45Q&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f09%2fPurple-wallpaper-16.jpg&ehk=bsW%2fflwK04Gr8rYsig2y1q0e%2bFpgVLrtSGz42VOjBW8%3d&risl=&pid=ImgRaw&r=0);
+}
+
+main{
+    
+    text-align: center;
+    background: url(https://th.bing.com/th/id/OIP.rCEnNL7xJmfDDdqQaN4jBgHaNK?pid=ImgDet&w=474&h=842&rs=1) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-container img {
+    max-width: 100%;
+}
+
+.imagen-container {
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.texto-oculto {
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: auto;
+    bottom: 0;
+    left: 0;
+    width: 93%;
+    overflow: hidden;
+}
+
+
+.texto-arriba{
+    background-color: #333;
+    color: goldenrod;
+}
+
+.texto-oculto{
+    color: pink;
+    
+}
+
+img {   
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+  }
+
+div {
+    border: 5px solid #ead9b0;
+    border-radius: 12px;
+  }
+
+  footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #ffcc00; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+h1{
+    border: 5px solid #ead9b0;
+    border-radius: 12px;
+    color: goldenrod;
+    background-color: #333;
+}
+
+h3{
+    font-size: 20px;
+    border: 5px solid #ead9b0;
+    border-radius: 12px;
+    color: palevioletred;
+    background-color: #333;
+}
+
+a{
+    color: goldenrod;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+p{
+    color: goldenrod;
+  }

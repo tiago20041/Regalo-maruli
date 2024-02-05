@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(189, 225, 122);
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 70px; /* Ajusta el tamaño del texto */
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 100px; /* Ajusta el margen superior */
+    margin-bottom: 20px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen superior */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 80px;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.5s;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 80px;
+  }
